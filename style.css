@@ -1,0 +1,215 @@
+body {
+    background: url(picture/kniga.jpg) no-repeat center center fixed;
+    background-size: 100%;
+}
+#logo {
+    width: 68px;
+    height: 61px;
+    margin-left: 13px;
+}
+.brand-text {
+    color: #1CD1F9;
+    font-size: 36px;
+    width: 178px;
+    height: 73px;
+    text-align: center;
+}
+.brand-text #planet {
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.brand-text #book {
+    margin-top: -30px;
+    margin-left: 10px;
+}
+.nav-link {
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat', cursive;
+    margin-top: -10px;
+    margin-left: 8px;
+}
+.navbar {
+    background-color: rgb(39, 38, 38);
+    height: 86px;
+}
+.form-inline .form-control {
+    background: #FFFFFF;
+    border: 1px solid #1CD1F9;
+    width: 226.91px;
+    height: 39px;
+}
+.form-inline .btn {
+    background: #FFFFFF;
+    width: 70px;
+    height: 39px;
+    color: #1CD1F9;
+}
+.pict {
+    color:white;
+    font-size: 48px;
+    margin-top: -510px;
+    margin-left: 583px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', cursive;
+}
+.rectangleIndex {
+    margin-top: 80px;
+    margin-left: 163px;
+    width:1168px;
+    height:506px;
+    background:rgb(0, 0, 0,0.6);
+
+}
+.card {
+    width:271px;
+    height:333px;
+    margin-left: 224px;
+}
+.card img {
+    width:149px;
+    height:190px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.card-title {
+    margin-top: -20px;
+    font-size: 18px;
+    color: #373A3C;
+    display: flex;
+    font-family: 'Montserrat', cursive;
+    align-items: flex-end;
+}
+.card-text-one {
+    margin-top: -10px;
+    font-family: 'Montserrat', cursive;
+    color: #717578;
+    font-size: 14px;
+}
+.card-text-two {
+    margin-top: 20px;
+    font-family: 'Montserrat', cursive;
+    color: #717578;
+    font-size: 14px;
+}
+.row .btn {
+    margin-left: 15px;
+    width: 104px;
+    height: 38.04px;
+}
+
+.row .card-text {
+    font-family: 'Montserrat', cursive;
+    margin-left: 65px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.container {
+    height: 250px;
+}
+.catalog {
+    width: 177.67px;
+    height: 35.15px;
+    margin-top: 15px;
+    margin-left: 31px;
+    color:white;
+    font-size: 24px;
+    font-family: 'Montserrat', cursive;
+}
+.list-group {
+    margin-left: 24px;
+    width: 436px;
+    height: 447.93px;
+}
+.list-group>button {
+    border: 1px solid #1CD1F9;
+    height: 67.6px;
+}
+
+.pagination {
+    margin-left: 880px;
+}
+.rectangleOrder {
+    margin-top: 30px;
+    margin-left: 123px;
+    width: 616px;
+    height: 740px;
+    background:rgb(0, 0, 0,0.6);
+
+}
+.pictOrder {
+    color:white;
+    font-size: 36px;
+    margin-top: -720px;
+    margin-left: 178px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', cursive;
+}
+.forms {
+    color: white;
+    margin-left: 172px;
+    margin-bottom: 10px;
+    width: 512px;
+    height: 37.57px;
+}
+.form-check {
+    margin-left: 91px;
+}
+.form-group-city {
+    margin-top: -20px;
+}
+.form-group-adr {
+    margin-top: 15px;
+}
+.form-group-two {
+    margin-top: -20px;
+}
+.form-group-count {
+    margin-top: -20px;
+}
+.form-group-count #namecount {
+    margin-top: -10px;
+}
+
+.form-group-pay #namepay {
+    margin-top: -10px;
+}
+.btn-pay {
+    margin-top: -35px;
+    margin-left: 385px;
+    width: 128px;
+    height: 37px;
+    border-radius: 8px;
+}
+.formCheck {
+    color: white;
+    margin-left: 450px;
+    margin-top: 130px;
+    width: 512px;
+    height: 37.57px;
+}
+.btn-entry{
+    margin-left: 780px;
+    margin-top: 70px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    border: 2px solid #67daf7;
+}
+.btn-check {
+    margin-top: 70px;
+    margin-left: 40px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    border: 2px solid #67daf7;
+}
+.rectangleCheck {
+    width: 550px;
+    height: 200px;
+    background:rgb(0, 0, 0,0.6);
+    margin-left: 430px;
+    margin-top: -190px;
+}
