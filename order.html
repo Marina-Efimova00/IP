@@ -67,33 +67,33 @@
     
     <form class="forms">
         <div class="form-group row ">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">ФИО</label>
+            <label for="inputFIO" class="col-sm-2 col-form-label">ФИО</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" placeholder="ФИО">
+                <input type="text" class="form-control" placeholder="ФИО" name ="fio">
             </div>
         </div>
         <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
             <div class="col-sm-10">
-                <input type="email" class="form-control" placeholder="Email">
+                <input type="email" class="form-control" placeholder="Email" name ="email">
             </div>
         </div>
         <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Номер телефона</label>
+            <label for="inputNum" class="col-sm-2 col-form-label">Номер телефона</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" placeholder="Номер телефона">
+                <input type="text" class="form-control" placeholder="Номер телефона" name="num">
             </div>
         </div>
         <div class="form-group-city row" id="city">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Город</label>
+            <label for="inputCity" class="col-sm-2 col-form-label">Город</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" placeholder="Город">
+                <input type="text" class="form-control" placeholder="Город" name="city">
             </div>
         </div>
         <div class="form-group-adr row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Адрес</label>
+            <label for="inputAdress" class="col-sm-2 col-form-label">Адрес</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" placeholder="Адрес">
+                <input type="text" class="form-control" placeholder="Адрес" name="adress">
             </div>
         </div>
         <fieldset class="form-group">
@@ -101,7 +101,7 @@
                 <legend class="col-form-label col-sm-2 pt-0">Выберети способ доставки:</legend>
                 <div class="col-sm-10">
                     <div class="form-check" >
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" >
                         <label class="form-check-label" for="gridRadios1">
                             Самовывоз
                         </label>
@@ -120,13 +120,13 @@
                 <legend class="col-form-label col-sm-2 pt-0">Способ оплаты:</legend>
                 <div class="col-sm-10">
                     <div class="form-check" >
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" checked>
+                        <input class="form-check-input" type="radio" name="gridRadios1" id="gridRadios3" value="option3" >
                         <label class="form-check-label" for="gridRadios3">
                             Наличными
                         </label>
                     </div>
                     <div class="form-check" >
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4">
+                        <input class="form-check-input" type="radio" name="gridRadios1" id="gridRadios4" value="option4">
                         <label class="form-check-label" for="gridRadios4">
                             Оплата онлайн
                         </label>
@@ -135,28 +135,28 @@
             </div>
         </fieldset>
         <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label" id="numbercard">Номер карты <span
+            <label for="inputCardNumber" class="col-sm-2 col-form-label" id="numbercard">Номер карты <span
                     style="color:red">(по
                     необходимости)</span></label>
 
             <div class="col-sm-10">
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" name="cardNumber">
             </div>
         </div>
         <div class="form-group-count row" id="count">
-            <label for="inputEmail3" class="col-sm-2 col-form-label" id="namecount">Количество товаров:</label>
+            <label for="inputCount" class="col-sm-2 col-form-label" id="namecount">Количество товаров:</label>
             <div class="col-sm-10">
                 <input class="form-control" type="text" readonly>
             </div>
         </div>
         <div class="form-group-pay row" id="pay">
-            <label for="inputEmail3" class="col-sm-2 col-form-label" id="namepay">К оплате:</label>
+            <label for="inputPay" class="col-sm-2 col-form-label" id="namepay">К оплате:</label>
             <div class="col-sm-10">
                 <input class="form-control" type="text" readonly>
             </div>
         </div>
         <div class ="but">
-        <a type="submit" class="btn-pay btn-primary ">Оплатить</a>
+        <button type="submit" class="btn-pay btn-primary">Оплатить</button>
     </div>
     </form>
     <script src="js/site.js"></script>

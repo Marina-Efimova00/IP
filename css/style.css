@@ -182,11 +182,7 @@ body {
     height: 38.04px;
     text-align: center;
     border: 1px solid transparent;
-    padding-top: 5px;
     border-radius: .25rem;
-}
-.but a{
-    text-decoration: none;
 }
 .formCheck {
     color: white;
