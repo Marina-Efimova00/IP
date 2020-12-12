@@ -49,22 +49,21 @@ body {
     color:white;
     font-size: 48px;
     margin-top: -510px;
-    margin-left: 583px;
+    margin-left: 450px;
     margin-bottom: 30px;
     font-family: 'Montserrat', cursive;
 }
 .rectangleIndex {
-    margin-top: 80px;
+    margin-top: 600px;
     margin-left: 163px;
     width:1168px;
     height:506px;
     background:rgb(0, 0, 0,0.6);
-
 }
 .card {
     width:271px;
     height:333px;
-    margin-left: 224px;
+    margin-left: 150px;   
 }
 .card img {
     width:149px;
@@ -178,10 +177,16 @@ body {
 }
 .btn-pay {
     margin-top: -35px;
-    margin-left: 385px;
-    width: 128px;
-    height: 37px;
-    border-radius: 8px;
+    margin-left: 410px;
+    width: 104px;
+    height: 38.04px;
+    text-align: center;
+    border: 1px solid transparent;
+    padding-top: 5px;
+    border-radius: .25rem;
+}
+.but a{
+    text-decoration: none;
 }
 .formCheck {
     color: white;
@@ -191,20 +196,24 @@ body {
     height: 37.57px;
 }
 .btn-entry{
-    margin-left: 780px;
+    margin-left: 770px;
     margin-top: 70px;
-    border-radius: 8px;
-    background-color: white;
-    color: black;
-    border: 2px solid #67daf7;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
 }
 .btn-check {
     margin-top: 70px;
-    margin-left: 40px;
-    border-radius: 8px;
-    background-color: white;
-    color: black;
-    border: 2px solid #67daf7;
+    margin-left: 30px;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    
+}
+.row a  {
+    text-decoration: none;
 }
 .rectangleCheck {
     width: 550px;
